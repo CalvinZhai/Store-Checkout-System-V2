@@ -40,19 +40,23 @@ namespace GroceryCo.Checkout.Client
         // <Customer> is optional
         private Customer ParseCustomer(XmlDocument xmlDoc)
         {
-            var customer = new Customer();
+            Customer customer = null;
 
             var xmlNodes = xmlDoc.DocumentElement.SelectNodes("/Basket/Customer");
             if (xmlNodes.Count > 0)
             {
                 var xmlNode = xmlNodes[0];
 
+                if (xmlNode["Type"] != null)   // <Address> optional
+                    customer = Customer.Create(xmlNode["Type"].InnerText.Trim());
+                else
+                    customer = new Customer();
+
                 if (xmlNode["Name"] != null)      // <Name> optional
                     customer.Name = xmlNode["Name"].InnerText.Trim(); 
 
                 if (xmlNode["Address"] != null)   // <Address> optional
                     customer.Address = xmlNode["Address"].InnerText.Trim();
-
             }
 
             return customer;

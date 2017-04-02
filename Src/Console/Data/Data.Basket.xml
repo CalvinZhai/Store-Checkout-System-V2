@@ -2,6 +2,9 @@
 <Basket>
     <!-- Completely optional -->
     <Customer>
+        <!-- C# class name, case sensitive: Customer, VIPCustomer, CityEmploy, VIPCityEmploy -->
+        <Type>VIPCityEmploy</Type> 
+        
         <Name>Calvin Zhai</Name>
         <Address>123 45 Street SW Calgary</Address>
     </Customer>

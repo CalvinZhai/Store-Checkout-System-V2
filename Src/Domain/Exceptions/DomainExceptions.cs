@@ -32,4 +32,12 @@ namespace GroceryCo.Checkout.Domain
         public ProductQuantityLessThanZeroException() { }
         public ProductQuantityLessThanZeroException(string message) : base(message) { }
     }
+
+    // likely happened in Customer.Create()
+    public class CustomerNotImplementedException : BaseException
+    {
+        public CustomerNotImplementedException() { }
+        public CustomerNotImplementedException(string message) : base(message) { }
+    }
+
 }
