@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+    
+    <Items>
+        <Item>
+            <Name>Apple</Name>
+            <!-- product name,  mandatory, has to exist in product catalog -->
+            <Price>1.0</Price>
+            
+        </Item>
+
+        <Item>
+            <Name>Banana</Name>
+            <Price>3.0</Price>
+        </Item>
+
+        <Item>
+            <Name>Orange</Name>
+            <Price>3.0</Price>
+        </Item>
+    </Items>
+
+    <Promotions>
+        <!-- VIP customer gets additional 10% off -->
+        <Promotion Name="VIPOff"          Rule="10">
+        </Promotion>
+
+        <!-- VIP customer gets additional 10% off -->
+        <Promotion Name="CityEmployee"          Rule="5">
+        </Promotion>
+        
+        <!-- Promotion Name and Rule both mandatory and have to follow format shown below -->
+        <!-- on sale at $0.80 -->
+        <Promotion Name="OnSalePriced"          Rule=".8">
+            <Items>
+                <!--- "*" means the promotion applies to all products -->
+                <Item Name="*" />               
+            </Items>
+        </Promotion>
+
+        <!-- on sale at 40% off -->
+        <Promotion Name="OnSaleOff"             Rule="40">
+            <Items>
+                <!-- "*-..." means the promotion applies to all products except ...
+                this case means applies to all products except 'Banana' and 'Orange' -->
+                <Item Name="*- Banana, Orange" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 for $2.00 -->
+        <Promotion Name="GroupPriced"           Rule="3-2.0">
+            <Items>
+                <!--<Item Name="Apple" />-->
+                <Item Name="Banana" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 get 2 for free -->
+        <Promotion Name="GroupAdditionFree"     Rule="3-2">
+            <Items>
+                <Item Name="Banana" />
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 get 2 at 50% off -->
+        <Promotion Name="GroupAdditionOff"      Rule="3-2-50">
+            <Items>
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+
+    </Promotions>
+    
+</Catalog>
+

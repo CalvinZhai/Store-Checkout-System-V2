@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+    <Items>
+        <Item>
+            <Name>Apple</Name>
+            <Price>1.0</Price>          <!-- regular price -->
+        </Item>
+        <Item>
+            <Name>Banana</Name>
+            <Price>2.0</Price>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+            <Price>3.0</Price>
+        </Item>
+    </Items>
+
+    <Promotions>
+        <!-- Promotion Name and Rule both mandatory and have to follow format shown below -->
+        <!-- on sale at $0.80 -->
+        <Promotion Name="OnSalePriced"          Rule=".8">
+            <Items>
+                <!--- * meanning the promotion applies to all products 
+                and we can works out more interesting pattern like "*-Apple,Banana"
+                which means applies to all products except 'Apple' and 'Banana'
+                -->
+                <Item Name="*" />
+            </Items>
+        </Promotion>
+
+        <!-- on sale at 40% off -->
+        <Promotion Name="OnSaleOff"             Rule="40">
+            <Items>
+                <Item Name="Apple" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 for $2.00 -->
+        <Promotion Name="GroupPriced"           Rule="3-2.0">
+            <Items>
+                <Item Name="Apple" />
+                <Item Name="Banana" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 get 2 for free -->
+        <Promotion Name="GroupAdditionFree"     Rule="3-2">
+            <Items>
+                <Item Name="Banana" />
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+
+        <!-- buy 3 get 2 at 50% off -->
+        <Promotion Name="GroupAdditionOff"      Rule="3-2-50">
+            <Items>
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+
+    </Promotions>
+</Catalog>

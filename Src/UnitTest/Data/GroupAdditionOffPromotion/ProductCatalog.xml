@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+    <Items>
+        <Item>
+            <Name>Apple</Name>
+            <Price>1.2</Price>          <!-- regular price -->
+        </Item>
+    </Items>
+
+    <Promotions>
+        <Promotion Name="GroupAdditionOff"                  Rule="3-2-40">
+            <Items>
+                <Item Name="Apple" />
+            </Items>
+        </Promotion>
+    </Promotions>
+</Catalog>

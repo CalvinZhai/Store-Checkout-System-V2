@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Basket>
+    <Items>
+        <Item>
+            <Name>apple</Name>
+        </Item>
+        <Item>
+            <Name>Banana</Name>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+    </Items>
+</Basket>
+

@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Framework", "Src\Framework\Checkout.Framework.csproj", "{6EB220B6-655A-48FF-AE5C-FA25849CB75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Console", "Src\Console\Checkout.Console.csproj", "{5AEB3B49-9381-4C3E-87D3-366DC5F73C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{B1514753-5198-4202-98CB-216B73F964A5}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\GroceryCo Checkout System Exercise.pdf = Doc\GroceryCo Checkout System Exercise.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib - NUnit-2.6.4", "Lib - NUnit-2.6.4", "{1165F40F-03B7-4B8C-9547-2A8427251247}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\NUnit-2.6.4\agent.conf = Lib\NUnit-2.6.4\agent.conf
+		Lib\NUnit-2.6.4\agent.log.conf = Lib\NUnit-2.6.4\agent.log.conf
+		Lib\NUnit-2.6.4\launcher.log.conf = Lib\NUnit-2.6.4\launcher.log.conf
+		Lib\NUnit-2.6.4\log4net.dll = Lib\NUnit-2.6.4\log4net.dll
+		Lib\NUnit-2.6.4\need nunit-agent to run nunit gui.txt = Lib\NUnit-2.6.4\need nunit-agent to run nunit gui.txt
+		Lib\NUnit-2.6.4\NSubstitute.dll = Lib\NUnit-2.6.4\NSubstitute.dll
+		Lib\NUnit-2.6.4\NSubstitute.xml = Lib\NUnit-2.6.4\NSubstitute.xml
+		Lib\NUnit-2.6.4\nunit-agent.exe = Lib\NUnit-2.6.4\nunit-agent.exe
+		Lib\NUnit-2.6.4\nunit-agent.exe.config = Lib\NUnit-2.6.4\nunit-agent.exe.config
+		Lib\NUnit-2.6.4\nunit-console-runner.dll = Lib\NUnit-2.6.4\nunit-console-runner.dll
+		Lib\NUnit-2.6.4\nunit-gui-runner.dll = Lib\NUnit-2.6.4\nunit-gui-runner.dll
+		Lib\NUnit-2.6.4\nunit.core.dll = Lib\NUnit-2.6.4\nunit.core.dll
+		Lib\NUnit-2.6.4\nunit.core.interfaces.dll = Lib\NUnit-2.6.4\nunit.core.interfaces.dll
+		Lib\NUnit-2.6.4\nunit.exe = Lib\NUnit-2.6.4\nunit.exe
+		Lib\NUnit-2.6.4\nunit.exe.config = Lib\NUnit-2.6.4\nunit.exe.config
+		Lib\NUnit-2.6.4\nunit.framework.dll = Lib\NUnit-2.6.4\nunit.framework.dll
+		Lib\NUnit-2.6.4\nunit.uiexception.dll = Lib\NUnit-2.6.4\nunit.uiexception.dll
+		Lib\NUnit-2.6.4\nunit.uikit.dll = Lib\NUnit-2.6.4\nunit.uikit.dll
+		Lib\NUnit-2.6.4\nunit.util.dll = Lib\NUnit-2.6.4\nunit.util.dll
+		Lib\NUnit-2.6.4\NUnitTests.config = Lib\NUnit-2.6.4\NUnitTests.config
+		Lib\NUnit-2.6.4\NUnitTests.nunit = Lib\NUnit-2.6.4\NUnitTests.nunit
+		Lib\NUnit-2.6.4\Rhino.Mocks.dll = Lib\NUnit-2.6.4\Rhino.Mocks.dll
+		Lib\NUnit-2.6.4\Rhino.Mocks.xml = Lib\NUnit-2.6.4\Rhino.Mocks.xml
+		Lib\NUnit-2.6.4\test.conf = Lib\NUnit-2.6.4\test.conf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Domain", "Src\Domain\Checkout.Domain.csproj", "{0AAAAB12-BCE2-460B-A50F-29D55C389C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.PricingEngine", "Src\PricingEngine\Checkout.PricingEngine.csproj", "{BC8634F0-90C6-4484-9C45-171551D352E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.UnitTest", "Src\UnitTest\Checkout.UnitTest.csproj", "{48ED77B7-603A-429F-9DEA-BB735041D8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.ClientShare", "Src\ClientShare\Checkout.ClientShare.csproj", "{019CF3E6-51D4-401C-A401-4E7F40245750}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C0674BD-8825-4879-AF09-EB5E9D83608F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB220B6-655A-48FF-AE5C-FA25849CB75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB220B6-655A-48FF-AE5C-FA25849CB75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB220B6-655A-48FF-AE5C-FA25849CB75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB220B6-655A-48FF-AE5C-FA25849CB75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEB3B49-9381-4C3E-87D3-366DC5F73C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEB3B49-9381-4C3E-87D3-366DC5F73C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEB3B49-9381-4C3E-87D3-366DC5F73C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEB3B49-9381-4C3E-87D3-366DC5F73C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAAAB12-BCE2-460B-A50F-29D55C389C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAAAB12-BCE2-460B-A50F-29D55C389C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAAAB12-BCE2-460B-A50F-29D55C389C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAAAB12-BCE2-460B-A50F-29D55C389C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8634F0-90C6-4484-9C45-171551D352E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8634F0-90C6-4484-9C45-171551D352E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8634F0-90C6-4484-9C45-171551D352E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8634F0-90C6-4484-9C45-171551D352E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48ED77B7-603A-429F-9DEA-BB735041D8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48ED77B7-603A-429F-9DEA-BB735041D8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48ED77B7-603A-429F-9DEA-BB735041D8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48ED77B7-603A-429F-9DEA-BB735041D8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019CF3E6-51D4-401C-A401-4E7F40245750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019CF3E6-51D4-401C-A401-4E7F40245750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019CF3E6-51D4-401C-A401-4E7F40245750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019CF3E6-51D4-401C-A401-4E7F40245750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

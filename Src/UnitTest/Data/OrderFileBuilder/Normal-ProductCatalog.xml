@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+    <Items>
+        <Item>
+            <Name>Apple</Name>
+            <Price>1.0</Price>          
+        </Item>
+        <Item>
+            <Name>Banana</Name>
+            <Price>2.0</Price>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+            <Price>3.0</Price>
+        </Item>
+    </Items>
+</Catalog>

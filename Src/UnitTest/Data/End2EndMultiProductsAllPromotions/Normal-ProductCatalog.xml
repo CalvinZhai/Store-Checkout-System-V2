@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Catalog>
+    <Items>
+        <Item>
+            <Name>Apple</Name>
+            <Price>1.0</Price>
+            <!-- regular price -->
+        </Item>
+        <Item>
+            <Name>Banana</Name>
+            <Price>2.0</Price>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+            <Price>3.0</Price>
+        </Item>
+    </Items>
+
+    <Promotions>
+        <Promotion Name="OnSalePriced"          Rule=".8">
+            <Items>
+                <Item Name="Apple" />
+            </Items>
+        </Promotion>
+
+        <Promotion Name="OnSaleOff"             Rule="40">
+            <Items>
+                <Item Name="Apple" />
+            </Items>
+        </Promotion>
+
+        <Promotion Name="GroupPriced"           Rule="3-4.10">
+            <Items>
+                <Item Name="Banana" />
+            </Items>
+        </Promotion>
+
+        <Promotion Name="GroupAdditionFree"     Rule="3-2">
+            <Items>
+                <Item Name="Banana" />
+            </Items>
+        </Promotion>
+
+        <Promotion Name="GroupAdditionFree"     Rule="3-2">
+            <Items>
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+
+        <Promotion Name="GroupAdditionOff"      Rule="2-3-50">
+            <Items>
+                <Item Name="Orange" />
+            </Items>
+        </Promotion>
+    </Promotions>
+</Catalog>

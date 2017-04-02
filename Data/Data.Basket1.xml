@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Basket>
+    <Customer>
+        <Name>Calvin Zhai</Name>
+        <Address>123 45 Street SW Calgary</Address>
+    </Customer>
+    <Items>
+        <!--<Item>
+            <Name>Apple</Name>
+        </Item>-->
+        <Item>
+            <Name>Banana</Name>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+        <!--<Item>
+            <Name>Apple</Name>
+        </Item>-->
+        <!--<Item>
+            <Name>Orange</Name>
+        </Item>
+        <Item>
+            <Name>Banana</Name>
+        </Item>-->
+
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+    </Items>
+</Basket>
+

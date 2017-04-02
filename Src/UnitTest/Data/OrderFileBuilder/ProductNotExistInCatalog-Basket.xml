@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Basket>
+    <Items>
+        <Item>
+            <Name>product-not-exist-in-catalog</Name>
+        </Item>
+
+        <Item>
+            <Name>apple</Name>
+        </Item>
+    </Items>
+</Basket>
+

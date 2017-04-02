@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Basket>
+    <Items>
+        <Item>
+            <Name>apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>APPLE</Name>
+        </Item>
+        <Item>
+            <Name>aPPle</Name>
+        </Item>
+    </Items>
+</Basket>
+

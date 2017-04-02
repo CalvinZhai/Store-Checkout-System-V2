@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Basket>
+    <!-- Completely optional -->
+    <Customer>
+        <Name>Calvin Zhai</Name>
+        <Address>123 45 Street SW Calgary</Address>
+    </Customer>
+    
+    <Items>
+        <Item>
+            <Name>Apple</Name>                  <!-- Name is mandatory, non-empty, has to exist in catalog -->
+        </Item>
+        
+        <Item>
+            <Name>Banana</Name>      
+        </Item>
+        
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+        <!--<Item>
+            <Name>Apple</Name>
+        </Item>-->
+        <!--<Item>
+            <Name>Orange</Name>
+        </Item>-->
+        <Item>
+            <Name>BaNaNa</Name>
+        </Item>
+
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+        <Item>
+            <Name>Apple</Name>
+        </Item>
+
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+        
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+        <Item>
+            <Name>Orange</Name>
+        </Item>
+    </Items>
+</Basket>
+
